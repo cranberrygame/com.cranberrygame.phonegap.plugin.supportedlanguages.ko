@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.cranberrygame.phonegap.plugin.supportedlanguages.ko"
+    version="1.0.0">
+	
+    <name>Phonegap SupportedLanguages plugin (ko)</name>
+    <description>Phonegap SupportedLanguages plugin (ko)</description>
+    <author>Sang Ki Kwon (Cranberrygame)</author>		
+    <license>MIT</license>
+    <keywords>phonegap, plugin, supportedlanguages</keywords>
+    <repo>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.supportedlanguages.ko</repo>
+    <issue>https://github.com/cranberrygame/com.cranberrygame.phonegap.plugin.supportedlanguages.ko/issues</issue> 	
+	<engines>
+	    <engine name="cordova" version=">=3.0.0" />
+	</engines>	
+	
+    <!-- windows8 -->
+    <platform name="windows8">
+        <config-file target="package.appxmanifest" parent="/Package/Resources">
+				<!--Resource Language="x-generate" /-->
+<!--				
+				<Resource Language="en" />
+				<Resource Language="af" />
+				<Resource Language="ar" />
+				<Resource Language="az-latn-az" />
+				<Resource Language="be" />
+				<Resource Language="bg" />
+				<Resource Language="ca" />
+				<Resource Language="cs" />
+				<Resource Language="da" />
+				<Resource Language="de" />
+				<Resource Language="el" />
+				<Resource Language="es" />
+				<Resource Language="et" />
+				<Resource Language="eu" />
+				<Resource Language="fa" />
+				<Resource Language="fi" />
+				<Resource Language="fr" />
+				<Resource Language="ga" />
+				<Resource Language="gl" />
+				<Resource Language="hi" />
+				<Resource Language="hr" />
+				<Resource Language="hu" />
+				<Resource Language="id" />
+				<Resource Language="it" />
+-->				
+				<!--Resource Language="iw" /-->
+<!--				
+				<Resource Language="he" />
+				<Resource Language="ja" />
+				<Resource Language="ko" />
+				<Resource Language="lt" />
+				<Resource Language="lv" />
+				<Resource Language="mk" />
+				<Resource Language="ms" />
+				<Resource Language="nl" />
+-->				
+				<!--Resource Language="no" /-->
+<!--				
+				<Resource Language="nb" />
+				<Resource Language="pl" />
+				<Resource Language="pt" />
+				<Resource Language="ro" />
+				<Resource Language="ru" />
+				<Resource Language="sk" />
+				<Resource Language="sl" />
+				<Resource Language="sq" />
+				<Resource Language="sr-cyrl-rs" />
+				<Resource Language="sv" />
+				<Resource Language="th" />
+				<Resource Language="tr" />
+				<Resource Language="uk" />
+				<Resource Language="vi" />
+				<Resource Language="zh-cn" />
+				<Resource Language="zu" />
+-->				
+				<!--no language pack-->
+<!--				
+				<Resource Language="zh-tw" />
+-->				
+<!-- add en -->
+				<Resource Language="en" />
+				<Resource Language="en-us" />
+				<Resource Language="en-gb" />								
+				<Resource Language="en-au" />								
+        </config-file>
+    </platform>
+	
+    <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/Languages">
+			<!--Language code="en-US" /-->
+<!--			
+			<Language code="en" />
+			<Language code="ar" />
+			<Language code="be" />
+			<Language code="bg" />
+			<Language code="ca" />
+			<Language code="cs" />
+			<Language code="da" />
+			<Language code="de" />
+			<Language code="el" />
+			<Language code="es" />
+			<Language code="et" />
+			<Language code="fi" />
+			<Language code="fr" />
+			<Language code="hi" />
+			<Language code="hr" />
+			<Language code="hu" />
+			<Language code="id" />
+			<Language code="it" />
+-->			
+			<!--Language code="iw" /-->
+<!--			
+			<Language code="he" />
+			<Language code="ja" />
+-->			
+			<Language code="ko" />
+<!--			
+			<Language code="lt" />
+			<Language code="lv" />
+			<Language code="mk" />
+			<Language code="ms" />
+			<Language code="nl" />
+			<Language code="no" />
+			<Language code="pl" />
+			<Language code="pt" />
+			<Language code="ro" />
+			<Language code="ru" />
+			<Language code="sk" />
+			<Language code="sl" />
+			<Language code="sq" />
+			<Language code="sv" />
+			<Language code="th" />
+			<Language code="tr" />
+			<Language code="uk" />
+			<Language code="vi" />
+			<Language code="zh-cn" />
+			<Language code="zh-tw" />
+-->			
+<!-- add en -->
+			<Language code="en" />
+			<Language code="en-us" />
+			<!--Language code="en-gb" /-->
+			<!--Language code="en-au" /-->
+        </config-file> 		
+    </platform>	
+</plugin>
