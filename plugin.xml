@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-supportedlanguages-en"
-    version="1.0.21">
+    version="1.0.22">
 	
     <name>Cordova SupportedLanguages en plugin</name>
     <description>Cordova SupportedLanguages en plugin</description>
@@ -17,7 +17,8 @@
 	
     <!-- windows -->
     <platform name="windows">
-        <config-file target="package.appxmanifest" parent="/Package/Resources">
+        <!--config-file target="package.appxmanifest" parent="/Package/Resources"-->
+        <config-file target="package.appxmanifest" parent="/Package/Resources" overwrite="true">
 				<!--Resource Language="x-generate" /-->
 <!--				
 				<Resource Language="en" />
