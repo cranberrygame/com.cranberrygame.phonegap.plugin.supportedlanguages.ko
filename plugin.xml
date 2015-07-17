@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-supportedlanguages-ko"
-    version="1.0.20">
+    id="cordova-plugin-supportedlanguages-en"
+    version="1.0.21">
 	
-    <name>Cordova SupportedLanguages plugin (ko)</name>
-    <description>Cordova SupportedLanguages plugin (ko)</description>
+    <name>Cordova SupportedLanguages en plugin</name>
+    <description>Cordova SupportedLanguages en plugin</description>
     <author>Sang Ki Kwon (Cranberrygame)</author>		
     <license>MIT</license>
-    <keywords>cordova,plugin,supportedlanguages</keywords>
-    <repo>https://github.com/cranberrygame/cordova-plugin-supportedlanguages-ko</repo>
-    <issue>https://github.com/cranberrygame/cordova-plugin-supportedlanguages-ko/issues</issue> 	
+    <keywords>cordova,plugin,supportedlanguages,en</keywords>
+    <repo>https://github.com/cranberrygame/cordova-plugin-supportedlanguages-en</repo>
+    <issue>https://github.com/cranberrygame/cordova-plugin-supportedlanguages-en/issues</issue> 	
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>	
 	
-    <!-- windows8 -->
-    <platform name="windows8">
+    <!-- windows -->
+    <platform name="windows">
         <config-file target="package.appxmanifest" parent="/Package/Resources">
 				<!--Resource Language="x-generate" /-->
 <!--				
@@ -116,7 +116,9 @@
 			<Language code="he" />
 			<Language code="ja" />
 -->			
+<!--
 			<Language code="ko" />
+-->			
 <!--			
 			<Language code="lt" />
 			<Language code="lv" />

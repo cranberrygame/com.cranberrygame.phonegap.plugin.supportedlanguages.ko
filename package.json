@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-supportedlanguages-en",
+  "version": "1.0.21",
+  "description": "Cordova SupportedLanguages en plugin",
+  "cordova": {
+    "id": "cordova-plugin-supportedlanguages-en",
+    "platforms": [
+      "windows",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranberrygame/cordova-plugin-supportedlanguages-en.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "supportedlanguages",
+    "en",
+    "ecosystem:cordova",
+    "cordova-windows",
+    "cordova-wp8"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "cranberrygame",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cranberrygame/cordova-plugin-supportedlanguages-en/issues"
+  },
+  "homepage": "https://github.com/cranberrygame/cordova-plugin-supportedlanguages-en#readme"
+}
