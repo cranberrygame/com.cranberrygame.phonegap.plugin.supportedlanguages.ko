@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-supportedlanguages-en"
-    version="1.0.22">
+    version="1.0.24">
 	
     <name>Cordova SupportedLanguages en plugin</name>
     <description>Cordova SupportedLanguages en plugin</description>
@@ -14,6 +14,9 @@
 	<engines>
 	    <engine name="cordova" version=">=3.0.0" />
 	</engines>	
+	
+    <platform name="blackberry10">
+    </platform>
 	
     <!-- windows -->
     <platform name="windows">
@@ -82,9 +85,11 @@
 -->				
 <!-- add en -->
 				<Resource Language="en" />
+<!--				
 				<Resource Language="en-us" />
 				<Resource Language="en-gb" />								
 				<Resource Language="en-au" />								
+-->				
         </config-file>
     </platform>
 	
@@ -144,7 +149,9 @@
 -->			
 <!-- add en -->
 			<Language code="en" />
+<!--			
 			<Language code="en-us" />
+-->			
 			<!--Language code="en-gb" /-->
 			<!--Language code="en-au" /-->
         </config-file> 		
