@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-plugin-supportedlanguages-en"
-    version="1.0.24">
+    version="1.0.25">
 	
     <name>Cordova SupportedLanguages en plugin</name>
     <description>Cordova SupportedLanguages en plugin</description>
@@ -84,9 +84,11 @@
 				<Resource Language="zh-tw" />
 -->				
 <!-- add en -->
-				<Resource Language="en" />
 <!--				
+				<Resource Language="en" />
+-->				
 				<Resource Language="en-us" />
+<!--				
 				<Resource Language="en-gb" />								
 				<Resource Language="en-au" />								
 -->				
@@ -148,10 +150,10 @@
 			<Language code="zh-tw" />
 -->			
 <!-- add en -->
-			<Language code="en" />
 <!--			
-			<Language code="en-us" />
+			<Language code="en" />
 -->			
+			<Language code="en-us" />
 			<!--Language code="en-gb" /-->
 			<!--Language code="en-au" /-->
         </config-file> 		
